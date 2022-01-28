@@ -460,7 +460,7 @@ header {
 
 .header-top__addres__link {
   text-decoration: none;
-  font-style: italic;
+  font-style: normal;
   font-family: "Futura";
   font-size: 14px;
   line-height: 100%;
