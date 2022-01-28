@@ -1,0 +1,352 @@
+.service {
+   margin-bottom: 180px;
+}
+
+
+.service__title {
+   margin-top: 0;
+   margin-bottom: 80px;
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 50px;
+   text-align: center;
+}
+
+.service__use {
+   display: flex;
+   position: relative;
+   
+}
+
+.service__button {
+   border: none;
+   background-color: #f9f9f9;
+   position: absolute;
+   top: 110px;
+   left: -60px;
+   
+   
+   &:hover {
+      background-color: #FFFFFF;
+   }
+   
+   &:active {
+      background-color: #FFFFFF;
+      opacity: 0.7;
+   }
+   
+}
+
+.service__list {
+   display: flex;
+   // justify-content: space-between;
+   list-style: none;
+   margin-bottom: 15px;
+   padding-left: 0;
+   position: relative;
+   
+}
+
+.service__button--active {
+   position: absolute;
+   background-color: #f9f9f9;
+   border: none;
+   top: 110px;
+   right: 20px;
+   
+   &:hover {
+      background-color: #FFFFFF;
+   }
+   
+   &:active {
+      background-color: #FFFFFF;
+      opacity: 0.7;
+   }
+   
+}
+
+.service__item {
+   margin-right: 20px;
+   width: 193px;
+   height: 235px;
+   background-color: #FFFFFF;
+   border: 1px solid #333333;
+   border-radius: 5px;
+   position: relative;
+   
+   &:hover {
+      opacity: 0.8;
+   }
+   
+   &:active {
+      opacity: 0.6;
+   }
+   
+}
+
+
+.service__item--active {
+   margin-right: 13px;
+   padding-bottom: 50px;
+   width: 192px;
+   height: 240px;
+   border: 1px solid #333333;
+   border-radius: 5px;
+   position: relative;
+   border-bottom: none;
+   background-color: #FFFFFF;
+   
+   &:hover {
+      opacity: 0.8;
+   }
+   
+   &:active {
+      opacity: 0.6;
+   }
+   
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/doctor1.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 54px;
+      height: 77px;
+      top: 50px;
+      left: 60px;
+   }
+   
+}
+
+.service__item:nth-child(2) {
+   
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/filled-outline.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 61px;
+      height: 76px;
+      top: 50px;
+      left: 60px;
+   }
+}
+
+.service__item:nth-child(3) {
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/filled-outline-1.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 72px;
+      height: 77px;
+      top: 50px;
+      left: 60px;
+   }
+   
+}
+
+.service__item:nth-child(4) {
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/filled-outline-2.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      top: 50px;
+      left: 60px;
+   }
+   
+}
+
+.service__item:nth-child(5) {
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/veterinary-31.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 78px;
+      height: 78px;
+      top: 50px;
+      left: 60px;
+   }
+   
+}
+
+.service__item:nth-child(6) {
+   &::after {
+      content: "";
+      
+      background-image: url(../../images/filled-outline-3=4.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      top: 50px;
+      left: 60px;
+   }
+   
+}
+
+.service__item__link {
+   text-decoration: none;
+}
+
+.service__item__title {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 159px;
+   padding-right: 35px;
+   padding-left: 35px;
+   padding-bottom: 28px;
+   font-family: "Futura";
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+   color: #333333;
+}
+
+.service__item__title:nth-child(1) {
+   padding-bottom: 42px;
+}
+
+.service__item__title:nth-child(4) {
+   padding-bottom: 42px;
+}
+
+.service__item__title:nth-child(6) {
+   padding-bottom: 42px;
+}
+
+.service__info {
+   display: flex;
+   padding-left: 40px;
+   align-items: center;
+   background-color: #FFFFFF;
+}
+
+.service__info__image {
+   margin-right: 67px;
+   padding-top: 43px;
+   padding-bottom: 43px;
+   padding-left: 35px;
+   width: 524px;
+   border-radius: 10px;
+}
+
+.service__inspection {
+   padding-top: 74px;
+   padding-bottom: 74px;
+   width: 500px;
+}
+
+.service__inspection__title {
+   margin-top: 0;
+   margin-bottom: 18px;
+   font-family: "Futura";
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 20px;
+   color: #333333;
+}
+
+.service__inspection__text {
+   margin-top: 0;
+   margin-bottom: 9px;
+   font-family: "Futura";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #333333;
+   opacity: 0.7;
+}
+
+.service__inspection__text--active {
+   margin-top: 0;
+   margin-bottom: 34px;
+   opacity: 0.6;
+}
+
+.service__inspection__info {
+   display: flex;
+}
+
+.service__inspection__link {
+   position: relative;
+   margin-right: 21px;
+   padding-top: 15px;
+   padding-right: 36px;
+   padding-bottom: 15px;
+   padding-left: 63px;
+   text-decoration: none;
+   font-family: "Futura";
+   font-size: 16px;
+   line-height: 20.51px;
+   color: #fff;
+   background-color:#FFBD54;
+   
+   &:hover {
+      background-color:  #333333;
+      color: #FFBD54;
+   }
+   
+   &:active {
+      background-color: #333333;
+      color: #FFBD54;
+      opacity: 0.6;
+   }
+   
+   
+   &::before {
+      content: "";
+      background-image: url(/images/money.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      left: 35px;
+   }
+}
+
+.service__inspection__link--active {
+   position: relative;
+   padding-top: 15px;
+   padding-right: 36px;
+   padding-bottom: 15px;
+   padding-left: 63px;
+   text-decoration: none;
+   font-family: "Futura";
+   font-size: 16px;
+   line-height: 20.51px;
+   color: #fff;
+   background-color:#333333;
+   
+   &:hover {
+      background-color:  #FFBD54;
+      color: #fff;
+   }
+   
+   &:active {
+      background-color: #FFBD54;
+      color:   #333333;
+      opacity: 0.6;
+   }
+   
+   
+   &::before {
+      content: "";
+      background-image: url(/images/document.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      left: 35px;
+   }
+   
+}

@@ -1,0 +1,251 @@
+header {
+   margin-bottom: 153px;
+}
+
+.header-top {
+   display: flex;
+}
+
+.header-top__address {
+   display: flex;
+   align-items: center;
+   padding-top: 14px;
+   margin-right: auto;
+   margin-bottom: 10px;
+   margin-left: 220px;
+ 
+
+
+   &::before {
+      content: "";
+      display: block;
+      background-image: url(../../images/house.svg);
+      width: 13px;
+      height: 13px;
+      margin-right: 9px;
+      
+   }
+}
+
+.header-top__addres__link {
+   text-decoration: none;
+   font-style: italic;
+   font-family: "Futura";
+   font-size: 14px;
+   line-height: 100%;
+   color: #333333;
+
+
+   
+}
+
+.header-top__list {
+   position: relative;
+   list-style-type: none;
+   display: flex;
+   margin-top: 0;
+   margin-right: auto;
+   margin-bottom: 13px;
+   padding-top: 11px;
+   padding-left: 0;
+
+
+   &::before {
+      content: "";
+      display: block;
+      background-image: url(../../images/phone.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      left: -20px;
+   }
+}
+
+.header-top__item {
+   list-style-type: none;
+}
+
+.header-top__item:nth-child(2) {
+   display: flex;
+   align-items: center;
+   margin-right: 22px;
+   margin-left: 22px;
+   position: relative;
+   
+   
+   &::before {
+      content: "";
+      display: block;
+      background-image: url(../../images/Ellipse..svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      top: 7px;
+      left: -10px;
+      // margin-right: 10px;
+   }
+
+   &::after {
+      content: "";
+      display: block;
+      background-image: url(../../images/Ellipse..svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      top:7px;
+      right: -30px;
+      margin-right: 10px;
+   }
+
+}
+
+.header-top__link {
+   text-decoration: none;
+   font-family: "Futura";
+   font-style: normal;
+   font-size: 14px;
+   line-height: 100%;
+   color: #333333;
+
+
+   &:hover {
+      color: #FFBD54;
+   }
+
+   &:active {
+      opacity: 0.6;
+   }
+}
+
+.header-top__time {
+   position: relative;
+   margin-bottom: 9px;
+   padding-top: 12px;
+
+
+   &::before {
+
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../../images/time.svg);
+      background-repeat: no-repeat;
+      width: 14px;
+      height: 14px;
+      top: 13px;
+      left: -20px;
+   }
+}
+
+.header-top__time__element:nth-child(1) {
+   margin-right: 17px;
+}
+
+
+
+
+.header-inner {
+   display: flex;
+   background-color: #F3F3F3;
+   position: relative;
+}
+
+.header-inner__logo {
+   position: absolute;
+   top: -20px;
+
+   &:hover {
+      opacity: 0.8;
+   }
+
+   &:active {
+      opacity: 0.6;
+   }
+}
+
+.header-inner__list {
+   position: relative;
+   display: flex;
+   margin-top: 0;
+   margin-right: 160px;
+   margin-left: 280px;
+   padding-top: 20px;
+   padding-left: 0;
+   list-style: none;
+
+
+   &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../../images/fish.svg);
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 14px;
+      left: -25px;
+   }
+}
+
+.header-inner__item {
+   margin-right: 55px;
+
+
+   &:hover {
+      border-bottom: 3px solid #ecf025;
+   }
+
+   &:active {
+      border-bottom: 3px solid #ecf025;
+      opacity: 0.6;
+   }
+}
+
+.header-inner__item:nth-child(6) {
+   margin-right: 0;
+}
+
+.header-inner__item__link {
+   text-decoration: none;
+   font-family: "Futura";
+   font-weight: 500;
+   font-style: 16px;
+   line-height: 20.51px;
+   color: #333333;
+}
+
+.header-inner__link {
+   position: relative;
+   padding-top: 18px;
+   text-decoration: none;
+   font-family: "Futura";
+   font-weight: 500;
+   font-style: 16px;
+   line-height: 20.51px;
+   color: #333333;
+
+
+   &:hover {
+      color: #FFBD54;
+   }
+
+   &:active {
+      opacity: 0.6;
+   }
+
+
+   &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../..//images/pet.svg);
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 20px;
+      top: 13px;
+      left: -30px;
+
+   }
+}

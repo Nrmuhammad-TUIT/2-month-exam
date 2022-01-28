@@ -1,0 +1,166 @@
+.articles {
+   margin-bottom: 265px;
+}
+
+.articles__title {
+   margin-top: 0;
+   margin-bottom: 80px;
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 20px;
+   color: #333333;
+   text-align: center;
+}
+
+.articles__list {
+   display: flex;
+   margin-top: 0;
+   align-items: center;
+   list-style: none;
+}
+
+.articles__item {
+   width: 320px;
+   background-color: #FFFFFF;
+}
+
+.articles__item--active {
+   display: flex;
+   padding:0;
+   background-color:#FFFFFF;
+   margin: 0 24px;
+   align-items: center;
+   width: 680px;
+}
+
+.articles__image {
+   width: 320px;
+   height: 180px;
+   margin-bottom: 21px;
+   border-radius: 5px;
+}
+
+.articles__image--active {
+   width: 305px;
+   height: 480px;
+   margin-right: 30px;
+   border-radius: 5px;
+}
+
+.articles__time {
+   margin-right: 22px;
+   margin-left: 212px;
+   margin-bottom: 2px;
+   opacity: 0.6;
+}
+
+.articles__time--active {
+   margin-right: 20px;
+   opacity: 0.6;
+  
+}
+
+.articles__info {
+   width: 300px;
+   margin-right: 0;
+   margin-bottom: 40px;
+   padding-right: 30px;
+   padding-left: 30px;
+}
+
+.articles__hero {
+   padding-right: 30px;
+   margin-bottom: 37px;
+   width: 300px;
+}
+
+.articles__hero__element {
+   display: flex;
+   margin-bottom: 30px;
+   padding-top: 30px;
+}
+
+.articles__item__title {
+   margin-top: 0;
+   margin-bottom: 10px;
+   font-weight: 700;
+   font-family: "Futura";
+   font-size: 22px;
+   line-height: 25px;
+   color: #333333;
+}
+
+.articles__hero__title--active {
+   margin-top: 0;
+}
+
+.articles__hero__link {
+   text-decoration: none;
+   color: #3D9CEA;
+}
+
+.articles__hero__link:nth-child(2) {
+   margin-right: 8px;
+   margin-left: 8px;
+}
+
+.articles__hero__link:nth-child(3) {
+   padding-right:20px;
+}
+
+.articles__item__title {
+   margin-top: 0;
+   margin-bottom: 15px;
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 29px;
+   color: #333333;
+}
+
+.articles__item__text {
+   margin-top: 0;
+   margin-bottom:  36px; 
+   font-family: "Futura";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   opacity: 0.6;
+}
+
+.articles__item__link {
+   position: relative;
+   margin-bottom: 37px;
+   margin-left: 10px;
+   text-decoration: none;
+   font-family: "Futura";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20.51px;
+   color: #333333;
+
+
+   &:hover {
+      color: #FFBD54;
+   }
+
+   &:active {
+      color: #333333;
+      opacity: 0.6;
+   }
+
+   &::before {
+      content: "";
+      display: block;
+      margin-right: 10px;
+      position: absolute;
+      background-image: url(../..//images/pet.svg);
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 20px;
+      top: -5px;
+      left: -30px;
+
+   }
+}

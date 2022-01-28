@@ -1,0 +1,71 @@
+.care-section {
+   position: relative;
+}
+
+.care-section__animals {
+   position: absolute;
+
+   top: -250px;
+   left: -190px;
+}
+
+.care-section__bird {
+   position: absolute;
+   top: 250px;
+   right: -50px;
+}
+
+
+.care {
+   margin-right: 60px;
+   margin-bottom: 450px;
+   margin-left: auto;
+   width: 608px;
+
+}
+
+.care__title {
+   margin-top: 0;
+   margin-bottom: 29px;
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 64px;
+}
+
+.care__span {
+   color: #51b5dd;
+   opacity: 0.8;
+}
+
+.care__hero {
+   width: 500px;
+}
+
+.care__text {
+   margin-bottom: 38px;
+   font-family: "Futura";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   color: #949494;
+}
+
+.care__link {
+   padding: 15px 48px;
+   text-decoration: none;
+   font-family: "Futura";
+   font-size: 16px;
+   line-height: 20.51px;
+   color: #fff;
+   background-color:#333333;
+
+   &:hover {
+      background-color: #FFBD54;
+      color: #333333;
+   }
+
+   &:active {
+      opacity: 0.6;
+   }
+}

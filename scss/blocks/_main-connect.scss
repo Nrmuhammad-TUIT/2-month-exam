@@ -1,0 +1,86 @@
+.connect {
+   display: flex;
+   margin-bottom: 247px;
+   align-items: center;
+   
+}
+
+.connect__hero {
+   background-image: url(../../images/Group-fish.png);
+   background-color: #333333;
+   background-repeat: no-repeat;
+   background-size: 100%;
+    width: 1200px;
+   // height: 800px;
+}
+
+.connect__hero__element {
+   margin-right: 0;
+   padding-top: 62px;
+   padding-left: 110px;
+   width: 550px;
+}
+
+.connect__hero__title {
+   margin-top: 0;
+   margin-bottom: 14px;
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 61.54px;
+   color: #ffffff;
+}
+
+.connect__hero__text {
+   margin-top: 0;
+   margin-bottom: 29px;
+   font-family: "Futura";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.connect__hero__form {
+   // padding-top: 62px;
+   padding-bottom: 74px;
+   padding-left: 110px;
+   width: 560px;
+}
+
+.connect__hero__input {
+   margin-bottom: 14px;
+   padding-top: 16px;
+   padding-bottom: 13px;
+   padding-left: 22px;
+   border: none;
+   width: 375px;
+}
+
+.connect__hero__textarea {
+   margin-bottom: 30px;
+   width: 375px;
+   height: 165px;
+   resize: none;
+}
+
+
+
+.connect__hero__button {
+   padding: 15px 50px;
+   border-radius: 5px;
+   border: none;
+   background-color: #FFBD54;
+   color: #FFFFFF;
+
+   &:hover {
+      background-color:  #333333;
+      color: #FFBD54;
+   }
+
+   &:active {
+      background-color: #333333;
+      color: #FFBD54;
+      opacity: 0.6;
+   }
+}

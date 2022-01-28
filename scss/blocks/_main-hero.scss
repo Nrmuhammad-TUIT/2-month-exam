@@ -1,0 +1,81 @@
+.hero {
+   margin-bottom: 191px;
+   margin-left: 300px;
+   width: 753px;
+   position: relative;
+
+
+   &::before {
+      content: "";
+
+      position: absolute;
+      background-image: url(../../images/“.svg);
+      background-repeat: no-repeat;
+      z-index: 1;
+      width: 142px;
+      height: 128px;
+      top: -30px;
+      left: -105px;
+   }
+
+
+   &::after {
+      content: "";
+
+      position: absolute;
+      background-image: url(../../images/“1.svg);
+      background-repeat: no-repeat;
+      z-index: 1;
+      width: 148px;
+      height: 128px;
+      top: 40px;
+      right: -190px;
+   }
+}
+   
+   
+   .hero__blockquote {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 70px;
+      margin-left: 0;
+      font-family: "Futura";
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25.64px;
+      color: #706b6b;
+      position: relative;
+      
+      &::before {
+         content: "";
+         
+         position: absolute;
+         width: 140px;
+         height: 2px;
+         background-color: #706b6b;
+         top: -35px;
+         left: 250px;
+         opacity: 0.6;
+      }
+      
+      &::after {
+         content: "";
+         position: absolute;
+         width: 140px;
+         height: 2px;
+         background-color: #706b6b;
+         bottom: -35px;
+         left: 250px;
+         opacity: 0.6;
+      }
+   }
+   
+   .hero__info {
+      padding-left: 120px;
+      text-align: center;
+      font-family: "Futura";
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25.64px;
+      color: #333333;
+   }

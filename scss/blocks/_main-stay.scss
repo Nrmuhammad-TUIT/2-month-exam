@@ -1,0 +1,64 @@
+.stay {
+   background-image: url(../../images/Group-dog.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 1440px;
+   height: 500px;
+
+   margin-bottom: 216px;
+}
+
+.stay__info {
+   padding-top: 170px;
+   padding-left: 257px;
+}
+
+.stay__title {
+   font-family: "Futura";
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 20px;
+   color: #FFFFFF;
+}
+
+.stay__form {
+   display: flex;
+}
+
+.stay__input {
+   margin-right: 21px;
+   padding-left: 12px;
+   padding-top: 18px;
+   padding-bottom: 12px;
+   width: 335px;
+   border: none;
+   border-radius: 5px;
+ 
+}
+
+.stay__input:focus {
+   border-color: #FFBD54;
+}
+
+.stay__input:active {
+   border-color: #FFBD54;
+}
+
+.stay__button {
+   padding: 15px 53px;
+   border-radius: 5px;
+   border: none;
+   background-color: #333333;
+   color: #FFFFFF;
+
+   &:hover {
+      background-color:  #FFBD54;
+      color:   #FFFFFF ;
+   }
+
+   &:active {
+      background-color:#FFBD54 ;
+      color:  #333333;
+      opacity: 0.6;
+   }
+}
